@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="mn">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Захиалга — TechNest Admin</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="admin-layout">
+      <aside class="admin-sidebar">
+        <div class="p-3 text-white fw-bold">
+          <i class="bi bi-cpu"></i>
+          <span class="side-label">TechNest Admin</span>
+        </div>
+        <a href="admin-products.html"
+          ><i class="bi bi-speedometer2"></i>
+          <span class="side-label">Хянах самбар</span></a
+        ><a href="admin-products.html"
+          ><i class="bi bi-box-seam"></i>
+          <span class="side-label">Бүтээгдэхүүн</span></a
+        ><a href="admin-categories.html"
+          ><i class="bi bi-grid"></i> <span class="side-label">Ангилал</span></a
+        ><a href="admin-orders.html"
+          ><i class="bi bi-bag"></i> <span class="side-label">Захиалга</span></a
+        ><a href="admin-payments.html"
+          ><i class="bi bi-credit-card"></i>
+          <span class="side-label">Төлбөр</span></a
+        ><a href="admin-customers.html"
+          ><i class="bi bi-people"></i>
+          <span class="side-label">Үйлчлүүлэгч</span></a
+        ><a href="admin-news.html"
+          ><i class="bi bi-newspaper"></i>
+          <span class="side-label">Мэдээлэл</span></a
+        ><a href="index.html" class="mt-4"
+          ><i class="bi bi-arrow-left"></i>
+          <span class="side-label">Сайт руу буцах</span></a
+        >
+      </aside>
+      <main class="admin-content">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <div>
+            <small class="text-muted">TECHNEST / УДИРДЛАГА</small>
+            <h1 class="h3 mb-0">Захиалга</h1>
+          </div>
+          <span class="badge bg-light text-dark">Администратор</span>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-hover bg-white">
+            <thead>
+              <tr>
+                <th>Захиалга №</th>
+                <th>Үйлчлүүлэгч</th>
+                <th>Огноо</th>
+                <th>Нийт дүн</th>
+                <th>Төлөв</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>TN-1042</td>
+                <td>Батболд Дорж</td>
+                <td>2026-11-02</td>
+                <td>1,499,000₮</td>
+                <td>
+                  <select class="form-select form-select-sm">
+                    <option selected>Хүргэгдсэн</option>
+                    <option>Хүлээгдэж буй</option>
+                    <option>Боловсруулж буй</option>
+                    <option>Хүргэлтэд</option>
+                    <option>Хүргэгдсэн</option>
+                    <option>Цуцлагдсан</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>TN-1039</td>
+                <td>Номин Эрдэнэ</td>
+                <td>2026-11-01</td>
+                <td>689,000₮</td>
+                <td>
+                  <select class="form-select form-select-sm">
+                    <option selected>Хүргэлтэд</option>
+                    <option>Хүлээгдэж буй</option>
+                    <option>Боловсруулж буй</option>
+                    <option>Хүргэлтэд</option>
+                    <option>Хүргэгдсэн</option>
+                    <option>Цуцлагдсан</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>TN-1035</td>
+                <td>Тэмүүлэн Ган</td>
+                <td>2026-10-31</td>
+                <td>329,000₮</td>
+                <td>
+                  <select class="form-select form-select-sm">
+                    <option selected>Боловсруулж буй</option>
+                    <option>Хүлээгдэж буй</option>
+                    <option>Боловсруулж буй</option>
+                    <option>Хүргэлтэд</option>
+                    <option>Хүргэгдсэн</option>
+                    <option>Цуцлагдсан</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>TN-1031</td>
+                <td>Саруул Болд</td>
+                <td>2026-10-30</td>
+                <td>4,599,000₮</td>
+                <td>
+                  <select class="form-select form-select-sm">
+                    <option selected>Хүлээгдэж буй</option>
+                    <option>Хүлээгдэж буй</option>
+                    <option>Боловсруулж буй</option>
+                    <option>Хүргэлтэд</option>
+                    <option>Хүргэгдсэн</option>
+                    <option>Цуцлагдсан</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>TN-1028</td>
+                <td>Энхжин Бат</td>
+                <td>2026-10-29</td>
+                <td>459,000₮</td>
+                <td>
+                  <select class="form-select form-select-sm">
+                    <option selected>Хүргэгдсэн</option>
+                    <option>Хүлээгдэж буй</option>
+                    <option>Боловсруулж буй</option>
+                    <option>Хүргэлтэд</option>
+                    <option>Хүргэгдсэн</option>
+                    <option>Цуцлагдсан</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>TN-1024</td>
+                <td>Мөнх-Эрдэнэ</td>
+                <td>2026-10-27</td>
+                <td>2,199,000₮</td>
+                <td>
+                  <select class="form-select form-select-sm">
+                    <option selected>Цуцлагдсан</option>
+                    <option>Хүлээгдэж буй</option>
+                    <option>Боловсруулж буй</option>
+                    <option>Хүргэлтэд</option>
+                    <option>Хүргэгдсэн</option>
+                    <option>Цуцлагдсан</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>TN-1020</td>
+                <td>Оюунчимэг</td>
+                <td>2026-10-25</td>
+                <td>999,000₮</td>
+                <td>
+                  <select class="form-select form-select-sm">
+                    <option selected>Хүргэгдсэн</option>
+                    <option>Хүлээгдэж буй</option>
+                    <option>Боловсруулж буй</option>
+                    <option>Хүргэлтэд</option>
+                    <option>Хүргэгдсэн</option>
+                    <option>Цуцлагдсан</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>TN-1016</td>
+                <td>Билгүүн</td>
+                <td>2026-10-23</td>
+                <td>3,299,000₮</td>
+                <td>
+                  <select class="form-select form-select-sm">
+                    <option selected>Боловсруулж буй</option>
+                    <option>Хүлээгдэж буй</option>
+                    <option>Боловсруулж буй</option>
+                    <option>Хүргэлтэд</option>
+                    <option>Хүргэгдсэн</option>
+                    <option>Цуцлагдсан</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+    <div id="toast-box"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
