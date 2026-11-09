@@ -1,11 +1,27 @@
-# TechNest
+# TechNest — цахилгаан барааны дэлгүүрийн загвар
 
-TechNest is a small, one-page electronics shop concept for a web design lab. The page is written with semantic HTML and plain CSS; it does not use Bootstrap, JavaScript, a cart, or a backend.
+F.ITM202 Веб зохиомж хичээлийн бие даалтын сэдэв: цахилгаан барааны **олон хуудаст статик eCommerce сайт**. Нийт **33 HTML хуудастай** (хэрэглэгчийн 26, админы 7 хуудас) бөгөөд даалгаврын 25 хуудасны доод шаардлагыг хангана.
 
-## Open the page
+## Ажиллуулах
 
-Open `technest/index.html` in a browser. The navigation links jump to sections on the same page, and the product links open an email draft.
+```bash
+cd technest
+python3 -m http.server 8000
+```
 
-## Notes
+Дараа нь `http://localhost:8000` хаягийг нээнэ. Bootstrap, Bootstrap Icons болон жишээ бүтээгдэхүүний зургууд CDN-ээс ачаалагддаг тул интернэт холболт шаардлагатай.
 
-The products, prices, delivery details, and contact address are sample content for the mockup, not a live shop. The layout uses CSS Grid and Flexbox and changes to a single-column layout on smaller screens. For the lab submission, add your own desktop/mobile screenshots and the actual AI prompt history required by the instructions.
+## Гол хэсгүүд
+
+- Нүүр, бүтээгдэхүүний ерөнхий ангилал болон зургаан төрлийн бүтээгдэхүүний жагсаалт
+- Бүтээгдэхүүний дэлгэрэнгүй, хайлт, үнэ/брэндийн шүүлтүүр
+- Сагс, хүслийн жагсаалт, захиалгын загвар урсгал
+- Хэрэглэгчийн нэвтрэх, бүртгүүлэх, профайл, данс, захиалгын түүх
+- Тусламж, FAQ, мэдээ, холбоо барих, хүргэлт/баталгаа, нууцлал
+- Админы нэвтрэх, бүтээгдэхүүн, ангилал, захиалга, төлбөр, хэрэглэгч, мэдээний хэсэг
+
+## Технологи ба хязгаарлалт
+
+HTML5, CSS3, JavaScript, Bootstrap 5.3.3 болон Bootstrap Icons ашигласан. Бүтээгдэхүүн, үнэ, захиалгын мэдээлэл нь жишээ өгөгдөл. Сагс болон хүслийн жагсаалт хөтчийн `localStorage`-т хадгалагддаг; хэрэглэгчийн нэвтрэлт, төлбөр болон админы мэдээлэлд сервер/өгөгдлийн сан холбогдоогүй тул бодит үйлчилгээ биш.
+
+Бие даалтын зорилго, sitemap, хуудасны жагсаалт болон технологийн тайлбар: [`docs/TechNest_Bie_Daalt_1.docx`](docs/TechNest_Bie_Daalt_1.docx).
